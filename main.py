@@ -1,5 +1,9 @@
 import math
 
-for a in range(1, 100):
+array = []
+
+for a in range(1, 30):
     if a % 2 == 0:
-        print(a)
+        array.append(a)
+
+print('чётные числа из последовательности (1, 30) -', list(array))
