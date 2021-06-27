@@ -11,7 +11,7 @@ def f(n):
         return True
 
 c = 0
-for n in range(1000000, 2000000):
+for n in range(1, 200):
     if f(n):
         print(n)
         c += 1
